@@ -1,0 +1,29 @@
+[debug] [2022-05-23T13:43:41.560Z] ----------------------------------------------------------------------
+[debug] [2022-05-23T13:43:41.562Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\FADHILAH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-23T13:43:41.563Z] CLI Version:   11.0.0
+[debug] [2022-05-23T13:43:41.563Z] Platform:      win32
+[debug] [2022-05-23T13:43:41.563Z] Node Version:  v16.15.0
+[debug] [2022-05-23T13:43:41.564Z] Time:          Mon May 23 2022 20:43:41 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-23T13:43:41.565Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-23T13:43:41.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-23T13:43:41.645Z] > authorizing via signed-in user (acmilrizqy17@gmail.com)
+[debug] [2022-05-23T13:43:41.645Z] [iam] checking project praktikum11-7deb3 for permissions ["firebase.projects.get"]
+[debug] [2022-05-23T13:43:41.648Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-7deb3:testIamPermissions [none]
+[debug] [2022-05-23T13:43:41.648Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-7deb3:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-23T13:43:42.778Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-7deb3:testIamPermissions 200
+[debug] [2022-05-23T13:43:42.778Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-7deb3:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-23T13:43:42.779Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3 [none]
+[debug] [2022-05-23T13:43:43.303Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3 200
+[debug] [2022-05-23T13:43:43.304Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3 {"projectId":"praktikum11-7deb3","projectNumber":"691468240970","displayName":"praktikum11","name":"projects/praktikum11-7deb3","resources":{"hostingSite":"praktikum11-7deb3","storageBucket":"praktikum11-7deb3.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\PBF\praktikum11-firebase'...
+[info] 
+[debug] [2022-05-23T13:43:43.313Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-7deb3/sites 
+[debug] [2022-05-23T13:43:44.758Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-7deb3/sites 200
+[debug] [2022-05-23T13:43:44.759Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-7deb3/sites {"sites":[{"name":"projects/praktikum11-7deb3/sites/praktikum11-7deb3","defaultUrl":"https://praktikum11-7deb3.web.app","appId":"1:691468240970:web:0909420a25851f908c7eb3","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-23T13:43:44.760Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3/webApps/1:691468240970:web:0909420a25851f908c7eb3/config [none]
+[debug] [2022-05-23T13:43:46.001Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3/webApps/1:691468240970:web:0909420a25851f908c7eb3/config 200
+[debug] [2022-05-23T13:43:46.001Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-7deb3/webApps/1:691468240970:web:0909420a25851f908c7eb3/config {"projectId":"praktikum11-7deb3","appId":"1:691468240970:web:0909420a25851f908c7eb3","storageBucket":"praktikum11-7deb3.appspot.com","locationId":"us-central","apiKey":"AIzaSyCh9vGeUC-K7lGT7SDVoH_oZYI6uJXB70o","authDomain":"praktikum11-7deb3.firebaseapp.com","messagingSenderId":"691468240970","measurementId":"G-339DPRZW5T"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
